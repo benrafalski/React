@@ -15,12 +15,15 @@ import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import './modules/appStyles.css'
 import styles from './modules/appStyles.module.css'
+import Form from './components/Form';
 
 // this is the view inside of the browser, functional component
 function App() {
   return (
     // functional component is 'Greet' and 'Hello', class component is 'Welcome'
     <div className="App">
+
+      <Form/>
 
       {/* <h1 className={styles.success}>Success</h1>  */}{/* for module css styling */}
       {/* <h1 className='error'>Error</h1> */} {/* for normal styling with css */}
