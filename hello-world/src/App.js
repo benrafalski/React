@@ -23,7 +23,7 @@ function App() {
   return (
     // functional component is 'Greet' and 'Hello', class component is 'Welcome'
     <div className="App">
-
+      {/* Test */}
       <LifecycleA/>
 
       {/* <Form/> */}
