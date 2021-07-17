@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ChildComponent from './ChildComponent'
+import ChildComponent from './Intro/ChildComponent'
 
 class ParentComponent extends Component {
 

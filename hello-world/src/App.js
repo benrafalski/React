@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './components/Greet';
+import React from 'react'
+import FragmentsDemo from './components/Advanced/FragmentsDemo';
+
+
+
+/* import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
-import ClassClick from './components/ClassClick';
+import ClassClick from './components/Intro/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
@@ -16,15 +21,21 @@ import Inline from './components/Inline';
 import './modules/appStyles.css'
 import styles from './modules/appStyles.module.css'
 import Form from './components/Form';
-import LifecycleA from './components/LifecycleA';
+import LifecycleA from './components/LifecycleA'; */
 
 // this is the view inside of the browser, functional component
 function App() {
   return (
     // functional component is 'Greet' and 'Hello', class component is 'Welcome'
     <div className="App">
-      {/* Test */}
-      <LifecycleA/>
+      
+      <FragmentsDemo/>
+      
+      
+
+
+
+      {/* <LifecycleA/> */}
 
       {/* <Form/> */}
 
