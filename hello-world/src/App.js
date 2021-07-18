@@ -2,8 +2,24 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react'
 import FragmentsDemo from './components/Advanced/FragmentsDemo';
+import Table from './components/Advanced/Table';
 
 
+
+
+// this is the view inside of the browser, functional component
+function App() {
+  return (
+    <div className="App">
+      <Table/>
+      {/* <FragmentsDemo/> */}
+
+  
+    </div>
+  );
+}
+
+// used for Intro components
 
 /* import Greet from './components/Greet';
 import Welcome from './components/Welcome';
@@ -24,12 +40,10 @@ import Form from './components/Form';
 import LifecycleA from './components/LifecycleA'; */
 
 // this is the view inside of the browser, functional component
-function App() {
-  return (
+//function App() {
+  //return (
     // functional component is 'Greet' and 'Hello', class component is 'Welcome'
-    <div className="App">
-      
-      <FragmentsDemo/>
+    {/* <div className="App"> */}
       
       
 
@@ -70,8 +84,10 @@ function App() {
       <Welcome name="Clark" heroName="Superman"/>
       <Welcome name="Diana" heroName="Wonder Woman"/>*/}
       {/*<Hello />*/}
-    </div>
-  );
-}
+    {/* //</div> */}
+    {/* ); */}
+{/* } */}
+
+
 
 export default App;
